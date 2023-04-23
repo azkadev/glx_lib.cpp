@@ -7,6 +7,6 @@ int main(int argc, List argv) {
     jsonData["@type"] = "ok";
     num nomor = 10;
     jsonData["number"] = nomor; 
-    print(stringToChar(name_program));
+    print(jsonData["number"]);
     return 0;
 }

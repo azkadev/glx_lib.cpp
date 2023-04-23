@@ -5,7 +5,7 @@ Mencoba mempermudah menggunakan bahasa cpp dengan glx lib.
 ## To Do
 
 1. [ ] Add Syntax core dart
-2. [ ] Docs
+2. [ ] Docs 
 
 ## Add Library
 
@@ -34,6 +34,7 @@ include_directories("path/glx_lib.cpp/lib")
 
 ```cpp
 #include "lib/glx_lib.hpp"
+ 
 int main(int argc, List argv) {
     String name_program = "GLX LIB.CPP";
     /// map json
@@ -41,7 +42,7 @@ int main(int argc, List argv) {
     jsonData["@type"] = "ok";
     num nomor = 10;
     jsonData["number"] = nomor; 
-    print(stringToChar(name_program));
+    print(jsonData["number"]);
     return 0;
 }
 ```
