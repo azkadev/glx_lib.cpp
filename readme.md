@@ -24,7 +24,7 @@ project(glx_library VERSION 0.0.1 LANGUAGES C CXX)
 
 ---
 
-include_directories("lib") 
+include_directories("path/glx_lib.cpp/lib") 
  
 ---
 
