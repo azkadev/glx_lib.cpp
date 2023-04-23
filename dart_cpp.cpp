@@ -60,7 +60,7 @@ extern "C"
         print(stringToChar(azka));
         Map jsonBody = json::parse(data);
         json jsonResult;
-        
+
 
         if (jsonBody["@type"] == "createVoice") {
             return jsonToChar(invoke(jsonBody));
@@ -91,7 +91,7 @@ int main(int argc, List argv) {
     jsonData["number"] = nomor;
 
     print(jsonToChar(jsonData));
-
+ 
     print(stringToChar("asko"));
 
     return 0;
