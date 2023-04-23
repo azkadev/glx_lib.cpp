@@ -2,6 +2,11 @@
 
 Mencoba mempermudah menggunakan bahasa cpp dengan glx lib.
 
+## To Do
+
+1. [ ] Add Syntax core dart
+2. [ ] Docs
+
 ## Add Library
 
 ```cpp
